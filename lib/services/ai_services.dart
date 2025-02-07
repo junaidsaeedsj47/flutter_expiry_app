@@ -8,7 +8,7 @@ class AIService {
       Uri.parse(AppUrls.apiChatCompletions),
       headers: {
         "Authorization":
-            "Bearer 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",
+            "Bearer APIKey",
         "Content-Type": "application/json",
       },
       body: jsonEncode({
